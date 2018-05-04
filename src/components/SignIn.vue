@@ -2,7 +2,7 @@
   <div class="container">
     <form>
       <div class="well">
-        <h4>Sign Up</h4>
+        <h4>Sign In</h4>
         <div class="form-group" >
           <label class="pull-left">Email</label>
           <input type="text" class="form-control" placeholder="Email" v-model="User.email">
@@ -13,6 +13,9 @@
         </div>
         
       <button id ="login-Btn" type="button" class="btn btn-success" @click="addToAPI">login</button>
+      <router-link :to="{ path: '/signup'}" class="btn btn-sm btn-primary " tag="button" type="button">
+      <span>Register</span>
+                  </router-link>
 
       </div>
     </form>

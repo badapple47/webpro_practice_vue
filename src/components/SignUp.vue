@@ -47,7 +47,7 @@ export default {
       axios.post('http://localhost:8082/authen/createAUser', newUser)
         .then((response) => {
           console.log(response)
-        //   window.location.href = "http://localhost:8080/#/home"
+          window.location.href = "http://localhost:8080/#/home"
         })
         .catch((error) => {
           console.log(error)
