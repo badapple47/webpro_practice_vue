@@ -1,21 +1,11 @@
-# vue-crud
+# webpro_practice_vue (Front End - Vue)
 
-> A Vue.js project
 
-## Build Setup
+## Introduction
 
-``` bash
-# install dependencies
-npm install
+practice ในวิชา Egco427 มีการใช้ Weather API ไปดึงสภาพอากาศจากเว็บนอกและมี CRUD ต่อกับ Back End เพื่อ สร้าง อ่าน ลบ อัพเดท ขอมูล
 
-# serve with hot reload at localhost:8080
-npm run dev
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Build and run 
+- npm install
+- npm start 
